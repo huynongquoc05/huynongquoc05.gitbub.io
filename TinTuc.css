@@ -1,0 +1,47 @@
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p img{
+    width: 40px; height: 40px;
+}
+.shar{
+    display: flex;align-items: center;
+}
+
+.dat{
+    display: flex; align-items: center;border: 0px;
+    border-bottom: 1px; border-top: 1px; border-style: groove;
+    border-color: aliceblue;
+    padding: 15px;
+}
+.dat img{
+    width: 40px; height: 40px;
+}
+
+.comment{
+    padding: 20px;background-color: rgb(214, 219, 223);color: black;
+}
+
+.slcc{
+    display: inline-block;
+    position: relative; left: 50%;
+}
+
+
+.comment1 img{
+    width: 50px; height: 50px;border-radius: 50%;
+}
+
+
+textarea{
+    width: 80%;
+    margin-left: 20px;outline: none;
+}
+.comment1 button{
+    border-bottom-right-radius: 5px; border-top-right-radius: 5px;
+    
+}
+
+

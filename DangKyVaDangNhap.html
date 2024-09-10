@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký tài khoản phim</title>
+    <link rel="stylesheet" type="text/css" href="webphim.css">
+    <link rel="stylesheet" href="danhmucphim.css">
+    <link rel="stylesheet" href="dinhdangxem.css">
+    <link rel="stylesheet" href="registration-form.css">
+    <link rel="icon" href="https://w7.pngwing.com/pngs/298/685/png-transparent-movies-logo-backsheet-hand-painted-practical.png">
+    
+    
+
+</head>
+<body >
+    
+    <header>
+        <li class="logo"><img src="https://w7.pngwing.com/pngs/298/685/png-transparent-movies-logo-backsheet-hand-painted-practical.png" alt=""></li>
+        <li><a href="Webphim.html">Trang chủ</a></li>
+        <li ><a href="#" > Thể loại &#x25BC;</a>
+            <ul class="dropdown-content">
+                <li><a href="Muclucphimcotrang.html">Cổ trang</a></li>
+                <li><a href="Muclucphimcotrang.html"> Thần thoại</a></li>
+                <li><a href="Muclucphimvothuat.html"> Võ thuật</a></li>
+                <li><a href="Muclucphimcotrang.html"> Viễn Tưởng</a></li>
+                <li><a href="Muclucphimtinhcam.html"> Tình cảm</a></li>
+                <li><a href="#"> Hoạt hình</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Quốc gia &#x25BC;</a>
+            <ul class="dropdown-content">
+                <li><a href="#">Trung Quốc</a></li>
+                <li><a href="Muclucphimhanquoc.html"> Hàn Quốc</a></li>
+                <li><a href="#">Mỹ</a></li>
+                <li><a href="#"> Nhật bản</a></li>
+                <li><a href="#"> Đài Loan</a></li>
+                <li><a href="#"> Thái Lan</a></li>
+            </ul></li>
+        <li><a href="PhimBo.html">Phim bộ</a></li>
+        <li><a href="Phimle.html">Phim lẻ</a></li>
+        <li><a href="#">Phim mới</a></li>
+
+
+        <span class="spp"><input type="search" id="search" name="search" placeholder="Tìm kiếm phim của bạn" class="search">
+
+        <button type="submit" class="s1"><img src="https://www.shutterstock.com/image-vector/monochromatic-magnifying-glass-icon-isolated-250nw-59760742.jpg" alt=""></button></span>
+
+            <span class="nutan"><button id="onoff">&#9776;</button></span>
+
+        <div class="dropul" id="dropul">
+            
+            <div><a href="Webphim.html">Trang chủ</a></div>
+            <div><a href="#" > Thể loại &#x25BC;</a>
+                <div>
+                    <a href="Muclucphimcotrang.html">Cổ trang</a>
+                    <a href="Muclucphimcotrang.html"> Thần thoại</a>
+                    <a href="Muclucphimvothuat.html"> Võ thuật</a>
+                    <a href="Muclucphimvothuat.html"> Viễn Tưởng</a>
+                    <a href="Muclucphimtinhcam.html"> Tình cảm</a>
+                    <a href="#"> Hoạt hình</a>
+                </div>
+            </div>
+            <div><a href="#">Quốc gia &#x25BC;</a>
+                <div>
+                    <a href="Muclucphimhanquoc.html">Trung Quốc</a>
+                    <a href="Muclucphimhanquoc.html">Mỹ</a>
+                    <a href="Muclucphimhanquoc.html">Nhật Bản</a>
+                    <a href="Muclucphimhanquoc.html">Hàn Quốc</a>
+                    <a href="#">Đài Loan</a>
+                    <a href="#">Thái Lan</a>
+                </div></div>
+            <div><a href="PhimBo.html">Phim bộ</a></div>
+            <div><a href="Phimle.html">Phim lẻ</a></div>
+            <div><a href="#">Phim mới</a></div>
+        </div>
+    </header>
+    
+        <main>
+            <div id="registration-form" class="registration-form">
+                <h2>Đăng ký</h2>
+                <img src="https://png.pngtree.com/template/20190716/ourlarge/pngtree-facebook-black-border-icon-image_228411.jpg" alt="">
+                <img src="https://banghieuminhkhang.com/upload/Thu-vien/logo-zalo-vector-9.jpg" alt="">
+                <img src="https://png.pngtree.com/png-clipart/20190613/original/pngtree-google-plus-black-icon-png-image_3584881.jpg" alt="">
+                <form id="register-form">
+                    <label for="register-username">Tên đăng nhập:</label><br>
+                    <input type="text" id="register-username" name="register-username"  required>
+                    <br>
+                    <label for="register-email">Email:</label><br>
+                    <input type="email" id="register-email" name="register-email"  required>
+                    <br>
+                    <label for="register-password">Mật khẩu:</label><br>
+                    <input type="password" id="register-password" name="register-password" required>
+                    <br>
+                    <button type="submit">Đăng ký</button>
+                    <p onclick="showloginform1()" class="show1">Đăng nhập</p>
+                    
+                </form>
+            </div>
+            <div class="to-login-form" id="to-login-form">
+                <h2>Xin chào bạn đến với Web phim!</h2> <p>đăng ký để xem phim không Quảng cáo</p>
+                <p>Bạn đã có tài khoản</p>
+                <button onclick="showloginform()" type="submit" id="show-login-form">Đăng nhập</button>
+            </div>
+            <div class="to-registration-form" id="to-registration-form" style="display: none;">
+                <h2>Chào mừng bạn đã trở lại!</h2>
+                <p>Bạn chưa có tài khoản</p>
+                <button onclick="showregistrationform()">Đăng ký</button>
+            </div>
+            <div id="login-form" class="login-form" style="display: none;">
+                <h2>Đăng nhập</h2>
+                <img src="https://png.pngtree.com/template/20190716/ourlarge/pngtree-facebook-black-border-icon-image_228411.jpg" alt="">
+                <img src="https://banghieuminhkhang.com/upload/Thu-vien/logo-zalo-vector-9.jpg" alt="">
+                <img src="https://png.pngtree.com/png-clipart/20190613/original/pngtree-google-plus-black-icon-png-image_3584881.jpg" alt="">
+                <form id="login-form">
+                    <label for="login-username">Tên đăng nhập:</label>
+                    <input type="text" id="login-username" name="login-username"  required>
+                    <br>
+                    <label for="login-password">Mật khẩu:</label><br>
+                    <input type="password" id="login-password" name="login-password" required>
+                    <br>
+                    <button type="submit" onclick="aaaaaa()">Đăng nhập</button>
+                    <p onclick="showregistrationform1()" class="show1">Đăng ký</p>
+                </form>
+            </div>
+        </main>
+            <div class="addqc" id="addqc">
+                <img src="https://tpc.googlesyndication.com/simgad/10993108401276763250?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&rs=AOga4qlZ6SQmE-ssYT7hEUO_pSmbW4Qiuw" alt="">
+                <button onclick="closead1()">X</button>
+            </div>
+            <div class="addqc1" id="addqc1" >
+                <img src="https://tpc.googlesyndication.com/simgad/16497773530891370813" alt="">
+                <button onclick="closead2()">X</button>
+            </div>
+        
+            <div class="registration-success" id="registration-success" style="display: none;">
+                <article>
+                <h2>Đăng ký thành công!</h2>
+                <img src="https://media4.giphy.com/media/ej0cjmiFD525JgbMsL/giphy.gif" alt="">
+                <p>Thông tin của bạn:</p>
+                <p>Tên đăng nhập: <span id="display-username" style="color: red;"></span></p>
+                <p>Email: <span id="display-email" style="color: red;"></span></p>
+                <p>Thưởng thức những bộ phim bom tấn tại web phim ngay bây giờ</p><br>
+                <a href="Webphim.html">Xem ngay</a>
+            </article>
+            
+            </div>
+            <div class="registration-success" id="login-success" style="display: none;">
+                
+                <article>
+                <h2>Đăng nhập thành công!</h2>
+                <img src="https://i.stack.imgur.com/ZRTb6.gif" alt="">
+                
+                <p>Chào mừng <span id="display-username1" style="color: red;"></span> đã quay trở lại!</p>
+                
+                <p>Thưởng thức những bộ phim bom tấn tại web phim ngay bây giờ</p><br>
+                <a href="Webphim.html">Xem ngay</a>
+            </article>
+            
+            </div>
+           
+    
+            
+        
+    
+    
+        <script src="webphim.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    <script src="Jquery.js"></script>
+    <script src="registration.js"></script>
+</body>
+</html>

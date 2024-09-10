@@ -1,0 +1,847 @@
+body{
+    background-color: rgb(86, 81, 81);margin: 0;
+}
+header{
+    background-color: rgb(34, 33, 33);
+    padding-left: 8%;
+    padding-bottom: 10px;
+   
+    
+}
+header li{
+    display: inline-flex;align-items: center;
+    padding: 10px;
+    height: 35px;
+    font-size: 16px;font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* border: 2px;border-style: groove;border-color: white; */
+    margin-top: 0px;
+   
+}
+header .logo{
+    position: relative;top: 15px;
+}
+header li img{
+    width: 40px;height: 40px;
+}
+header li a{
+    text-decoration: none;color: rgb(203, 195, 195);
+}
+
+
+
+header li a:hover{
+    color: blue;
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 1.4cm;
+    background-color:rgb(27, 25, 25);
+    padding-top: 0.5cm;
+    padding-left: 10px;
+    margin: 0;z-index: 1;
+   
+}
+
+
+.dropdown-content li {
+    margin: 0;
+    display: block; padding: 0;
+    padding-left: 20px;
+    padding-right: 100px;
+    font-size: 16px;
+   
+    
+}
+
+.dropdown-content li::before{
+    content: "\27A4";
+    color: white;
+    margin-right: 5px;
+}
+.dropdown-content li:hover::before{
+    color: #408BEA;
+}
+
+header li:hover .dropdown-content {
+    display: block;
+}
+header li:hover > a{
+    color: #408BEA;
+}
+
+
+.search{
+    
+    width: 6cm;
+    margin-left: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-style: italic;
+    border-style: none;outline: none;
+    
+}
+
+.s1{
+    font-size: 16px;
+    
+    width: 40px;
+    background-color: white;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    padding: 0cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 0px;
+    border-style: none;
+
+}
+
+.s1 img{
+    height: 18px;
+    width: 18px;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.s1 img:hover{
+    height: 26px;
+    width: 27px;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.spp{
+    display: inline-flex;
+    align-items: center;
+    
+    background-color: white;
+    margin-left: 10%;
+    border-radius: 5px;
+    justify-content: center;
+    height: 40px; 
+    
+    
+    
+}
+.nutan{
+   
+    display: none;
+}
+.nutan button{
+    color: white;
+    font-size: 30px;
+}
+
+.dropul{
+    display: none;
+}
+
+/*main*/
+main{
+    margin-left: 9%;
+    margin-right: 9%;
+    background-color: white;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+}
+.div1 {
+    background-color: rgb(45, 40, 40);padding: 10px;
+    text-align: center;overflow-x: hidden;white-space: nowrap;
+    
+    
+}
+
+.div1 img{
+    max-width: 100%;
+    transition: transform 1s;
+    
+    
+}
+
+.div2{
+   display: flex;background-color:white;color: rgb(226, 219, 219);/*background-color: rgb(30, 29, 29);*/
+   background-color: rgb(22, 21, 21);font-weight: 200;
+   
+}
+
+
+
+.div2 .div2l{
+    padding: 30px;border-right: 2px;border-color: black;
+   border-style: groove;
+    border-top: 0px;border-bottom: 0px; border-left: 0px;
+    
+    width: 65%;
+}
+
+.div2 .div2l .topmovie{
+    width: 100%;
+    display: flex;margin-top: 0px;padding-bottom: 0px;
+    height: 6.5cm;
+    
+}
+.topmovie article{
+    width: 50%;
+    transition: all 0.5s;
+
+}
+.topmovie article:nth-child(1){
+    margin-right: 25px;
+}
+.topmovie article img{
+    width: 100%;height: 5.5cm;
+    
+}
+.topmovie article:hover{
+    transform: scale(1.05);
+}
+.topmovie article div{
+    position: relative;bottom: 1.6cm;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+.topmovie article > span{
+    display: inline-block;
+    position: relative;
+    background-color: rgb(34, 34, 224);color: white;
+    left: 75%;
+     width: 25%; overflow: hidden;white-space: nowrap;
+     bottom: 1.9cm;
+}
+.topmovie article div p{
+    font-size: 20px;
+   margin-top: 0px;margin-bottom: 0px;
+}
+.topmovie article div span{
+    font-size: 16px;
+    
+}
+
+
+
+.div2 .div2l hr{
+    margin-left: 0px;color: gainsboro;
+}
+.div2 .div2l h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-left: 5px;border-style: groove; border-color:#408BEA;
+    border-right: 0px;border-top: 0px;border-bottom: 0px;
+    padding-left: 20px;
+    /*margin-left: 10px;*/
+    margin-bottom: 0px;
+    width: 100%;
+   
+}
+
+
+/*ten phim*/
+.div2 .div2l .tenphim{
+ width: 100%;
+ 
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ margin-top: 0px;
+ overflow: hidden;
+ /* overflow-x: scroll; */
+white-space: nowrap;
+ 
+}
+.div2 .div2l .tenphim article{
+    
+    width: 18.5%; 
+    display: inline-block; 
+    margin-right: 10px;
+    overflow: hidden;
+    text-align: center;
+   
+    animation-name: trans;animation-duration: 16s;animation-iteration-count: infinite;
+
+}
+.div2 .div2l .tenphim article div{
+    height: 5cm;
+    overflow: hidden;
+}
+
+.div2 .div2l .tenphim article  img{
+    height: 100%;
+    width: 100%; transition: filter 0.5s, transform 0.5s;
+}
+.div2 .div2l .tenphim img:hover{
+    filter:   blur(1px);transform: scale(1.2);
+    
+}
+
+
+
+.div2 .div2l .tenphim article div:hover::after{
+    content: "Xem ngay";
+    position: relative;
+    bottom: 12%;
+    
+    display: block;
+    width: 100%; 
+    height: 20px;
+    
+    background-color: #00ff0f;
+    font-size: 12px;
+    border-radius: 3px;
+    transition: display 0.5s;
+}
+
+.div2 .div2l .tenphim article div::after{
+    content: "HD VIÉSTUB";
+    position: relative;
+    bottom: 100%;
+    
+    display: block;
+    width: 50%; 
+    padding: 5px;font-weight: bold;
+    
+    background-color: red;
+    font-size: 12px;
+    border-radius: 3px;overflow-x: hidden;
+    color: black;
+}
+.div2 .div2l .tenphim:nth-child(2) article div::after{
+    content: "Nổi bật";
+    position: relative;
+    bottom: 100%;
+    
+    display: block;
+    width: 50%; 
+    padding: 5px;
+    
+    background-color: red;
+    font-size: 12px;
+    border-radius: 3px;overflow-x: hidden;
+    color: black;
+}
+.div2 .div2l .tenphim article p a{
+    color: inherit;text-decoration: none;
+}
+
+
+
+.div2 .div2l .tenphim article p{
+    overflow: hidden;
+    white-space: nowrap; 
+  text-overflow: ellipsis; 
+    font-size: 14px;color: rgb(243, 241, 241);
+   /* font-style: italic;*/
+}
+.div2 .div2l .tenphim article span{
+    font-size: 9px;
+    overflow: hidden; 
+  
+    
+    color: gray;font-style: normal;
+}
+.div2 .div2l .tenphim article p:hover{
+    color: hotpink;
+}
+
+
+
+
+
+
+
+.div2 .div2l section{
+    width: 100%;
+    display: flex;
+}
+.div2 .div2l section article{
+    display: block;font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.div2 .div2l section article h3 a{
+    text-decoration: none;color: inherit;
+}
+.div2 .div2l section article h3:hover{
+    color: hotpink;
+}
+.div2 .div2l section article p{
+    font-size: 13px;
+}
+.div2 .div2l section article .year{
+    font-size: 25px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#408BEA;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.div2 .div2l section article .month{
+    font-size: 12px;margin-top: 0px;text-align: center;
+}
+.div2 .div2l section .left{
+    margin-right: 20px;
+    width: 20%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/*Div 2r*/
+.div2 .div2r{
+    padding: 20px;
+    width: 30%;
+    padding-left: 30px;
+    padding-right: 30px;color: rgb(226, 219, 219);
+}
+
+.nph{
+    display: grid;grid-template-columns: repeat(3,1fr);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    grid-column-gap:10px ;
+    
+}
+.nph p{
+    background-color: black;
+    padding: 5px;text-align: center;
+    margin-top: 0px;margin-bottom: 10px;border-radius: 5px;
+}
+.nph p:hover{
+    background-color: #408BEA;
+}
+.div2 .div2r .art1{
+    margin-top: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+
+}
+
+.div2 .div2r h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+ .art2{
+    margin-top: 0px;
+    height: 4.5cm;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 10px;
+   
+    
+   
+}
+.art2 img{
+    max-width: 100%;
+   
+    width: 100%;
+    height: 4cm;
+    border-radius: 10px;transition: filter 0.5s;
+}
+.art2 img:hover{
+    filter: brightness(50%) blur(1px);
+    border-radius: 10px;
+    
+   
+    
+    
+}
+
+
+.art2 div{
+    position: relative;
+    bottom: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;color: rgb(226, 219, 219);
+    font-style: italic;max-width:  100%;
+    
+   
+    
+}
+.art2 div p{
+    font-size: 20px; font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+/*Div3*/
+.div3{
+    display: flex;
+    align-items: center;
+   margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+.div3 section{
+    width: 25%;
+}
+.div3 .Mucluc{
+    display: flex;
+    width: 60%;
+
+
+}
+.div3 .Mucluc article{
+    margin-right: 100px;
+}
+
+    
+
+
+.div3 .Mucluc article p{
+    font-size: 12px;color: hotpink;
+    
+}
+
+
+.qcclick{
+    /*position: absolute;top: 7cm;
+    left: 15cm;*/
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(49, 48, 48, 0.5);z-index: 1; transition: display 0.5s;
+    
+}
+.qcclick img{
+   /* transform: scale(1.5);*/
+    /*border: 3px;border-style: groove;border-color: black;*/
+    
+    margin-top: 6.5cm;width: 7cm;height: 8cm;
+}
+.qcclick span{
+    position: relative;right: 76px;bottom: 7.65cm;
+    
+   
+}
+.qcclick span button{
+    background-color: #00ff00;
+    border-radius: 4px;
+}
+.qcclick span button:hover{
+    background-color: #91bc91;
+}
+
+.loginsignup{
+    position: fixed;
+    right: 20px;
+    top: 15cm;
+    padding: 0px;
+    width: 80px;height: 80px;
+}
+.loginsignup a{
+    color: white;text-decoration: none;font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.loginsignup img{
+    width: 100%;height: 100%;
+    border-radius: 40px;
+    border: 3px; border-color: black;border-style: groove;
+    animation-name: example;
+    animation-duration: 4s;animation-iteration-count: infinite;
+}
+@keyframes example{
+    0%{
+        transform: scale(1.2);
+        
+        filter: brightness(100%);
+    }
+    25%{
+        transform: scale(1);
+        filter: brightness(75%);
+        
+    }
+    50%{
+        transform: scale(1.2);
+        filter: brightness(100%);
+    }
+    75%{
+        transform: scale(1);
+        filter: brightness(75%);
+    }
+    100%{
+        transform: scale(1.2);
+        filter: brightness(100%);
+    }
+}
+@keyframes trans{
+    0%,23%{
+        transform: translateX(0%);
+    }
+    25%,48%{
+        transform: translateX(-100%) translateX(-13.5px);
+    }
+    50%,73%{
+        transform: translateX(-200%) translateX(-27px);
+    }
+    75%,98%{
+        transform: translateX(-300%) translateX(-40.5px);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+/*Quảng cáo cuối màn hihf*/
+.qcbottom{
+    display: flex;
+    margin-left: 7%;
+    margin-right: 7%;
+    position: fixed;bottom: 0px;
+    left: 5%;
+    right: 5%;
+}
+.qcbottom img{
+    width: 50%;
+    height: 3cm;
+}
+.clqcbottom{
+    position: fixed; bottom: 3cm;
+left: 45%;right: 45%;padding: 5px;
+}
+
+    
+
+
+/*Web đáp ứng*/
+@media (max-width:1250px ){
+    body{
+        overflow-x: hidden;
+    }
+    .search{
+        width: 3cm;margin-left: 0;
+    }
+    header{
+        padding-left: 0;
+    }
+    main{
+        margin: 0;
+    }
+}
+@media (max-width:1025px ){
+    .search{
+        display: none;
+    }
+    .s1{
+        display: none;
+    }
+}
+
+@media (max-width:850px ) {
+    body{
+        overflow-x: hidden;
+    }
+    
+    main{
+        margin-left: 0px;
+        margin-right: 0px;
+        
+        overflow: hidden;
+        width: inherit;
+        
+        
+        
+        
+    }
+    header{
+        width: inherit;
+        overflow: hidden;
+        justify-content: center;
+        padding-left: 0px;
+       
+        
+        
+    }
+    header li{
+        display: none;
+    }
+    header .logo{
+        display: inline-flex;
+        margin-left: 5%;
+    }
+    header .spp{
+        margin-left: 5%;
+    }
+    
+    .div1 img{
+        max-width: 100%;
+    }
+    .search{
+        width: 5cm;display:inline-flex;
+    }
+    .s1{
+        display: inline;
+    }
+    .nutan{
+        display: inline;
+        
+        position: absolute;
+        top: 0.6cm;
+        right: 0.5cm;
+        
+    }
+    .nutan button{
+        color: white;
+        background-color: black;
+        border: 0;
+       font-size: 40px;
+    }
+    .nutan button:hover{
+        color: hotpink;
+    }
+    .dropul{
+        display: block;
+        width: 100%;
+        transition: transform 1s ;
+        
+        
+        background-color: white;
+        color: black;
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 20px;
+        
+    }
+    .dropul >div{
+        padding: 15px;border-top: 0px;border-left: 0px;border-right: 0px;
+        border-bottom: 1px;border-style: groove;border-color: black;
+    }
+    
+    .dropul > div > a{
+        color: black;
+        text-decoration: none;
+        width: 100%;
+        display: block;
+        font-weight: bold;
+    }
+    .dropul > div a:hover{
+        color: hotpink;
+    }
+    .dropul div > div{
+        
+        margin-top: 15px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .dropul div > div a{
+        padding: 15px;
+        padding-left: 45px ;
+        text-decoration: none;
+        color: black;
+    }
+    
+    
+    
+    .div2 {
+        flex-direction: column;
+
+        
+    }
+    .div2 .div2l{
+        width: 90%;
+        border:0px
+        
+        
+        
+
+        
+    }
+    .topmovie{
+        flex-direction: column;
+    }
+    .topmovie article{
+        width: 100%;
+    }
+    .topmovie article:nth-child(2){
+        display: none;
+    }
+    .div2 .div2l .tenphim article{
+        width: 23%;
+        
+    }
+    .div2 .div2l .tenphim article div:hover::after{
+        display: none;
+    }
+    .div2 .div2r{
+        
+        width: 100%;   
+        
+        
+    }
+    .nph{
+        width: 90%;
+    }
+    .div2 .div2r .div2r2{
+        display: grid;
+        grid-template-columns: 47% 47%;
+        
+        
+    }
+    .div2 .div2r .div2r2 .art2{
+        width: 90%;
+    }
+    .div2 .div2r .div2r2 .art2{
+        overflow: hidden;white-space: nowrap;
+    }
+
+    .div3{
+        
+        flex-direction: column;
+        
+       
+     margin-left: 0;
+
+    }
+    .div3 section{
+        margin-left: 0px;
+        width: 100%;
+        order: 1;
+        margin-top: 50px;
+        justify-content: center;
+        margin-left: 30%;
+
+    }
+    .div3 .Mucluc{
+       
+        width: 100%;
+        order: 0;
+        display: grid;
+        grid-template-columns: 50% 50%;
+       
+        
+        
+        
+    }
+    .div3 .Mucluc article{
+        margin-right: 0px;
+    }
+}
+@media (max-width:600px ){
+    .div2 .div2l .tenphim article{
+        width: 31%;
+        
+    }
+    .div2 .div2l .tenphim article div{
+        height: 5cm;
+        overflow: hidden;
+    }
+}
+
+/*Hiệu ứng trước khi ẩn*/
+@keyframes none{
+    0%{transform: scaleY(1);overflow-y: scroll;}
+    100%{transform: scaleY(0);display: none;}
+}
+
+
+
+
+
